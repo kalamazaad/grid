@@ -47,7 +47,7 @@ class App extends Component {
           </div>
           <div className='card'>
             <img src={`${BASEURL}10.jpeg`} alt=''/>
-            <lable>Image 09</lable>
+            <lable>Image 10</lable>
           </div>
         </section>
         <footer>Copyright@2025. All rights reserved. @AKA</footer>

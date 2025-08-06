@@ -16,10 +16,10 @@ header{
 footer{
   height: 30px;
   line-height: 30px;
-  background: #2d3748;
-  background: linear-gradient(90deg, rgb(219, 233, 219), rgb(140, 140, 190));
+  /* background: #2d3748; */
+  background: linear-gradient(90deg, rgb(219, 233, 219), rgb(200, 200, 227));
   font-size: 10pt;
-  color: white;
+  color: rgb(6, 1, 1);
   text-align: center;
 }
 section{
