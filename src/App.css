@@ -17,7 +17,7 @@ footer{
   height: 30px;
   line-height: 30px;
   background: #2d3748;
-    background: linear-gradient(90deg, rgb(219, 233, 219), rgb(140, 140, 190));
+  background: linear-gradient(90deg, rgb(219, 233, 219), rgb(140, 140, 190));
   font-size: 10pt;
   color: white;
   text-align: center;
@@ -37,9 +37,11 @@ section{
   border-radius: 10px;
   height: 250px;  
   overflow: hidden;
-  background: white;
-  box-shadow: 0px, 10px 20px lightgray;
-  transition: transform 0.3s ease,box-shadow 0.3s ease;
+    background: linear-gradient(90deg, rgb(219, 233, 219), rgb(161, 232, 238));
+
+  /* background: rgb(160, 232, 240);
+  box-shadow: 0px, 10px 20px rgb(79, 60, 187); */
+  transition: transform 0.3s ease;
 }
 .card img{
   width: 100%;
