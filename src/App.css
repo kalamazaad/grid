@@ -32,8 +32,8 @@ section{
   gap: 20px;
   padding:10px;
 }
-.card{
-  width: 100%;
+.card{  
+  /* width: 100%;
   border-radius: 10px;
   height: 250px;  
   overflow: hidden;
@@ -41,7 +41,14 @@ section{
 
   /* background: rgb(160, 232, 240);
   box-shadow: 0px, 10px 20px rgb(79, 60, 187); */
-  transition: transform 0.3s ease;
+  /* transition: transform 0.3s ease;  */
+   width: 100%;
+  border-radius: 10px;
+  height: 250px;  
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(219, 233, 219), rgb(161, 232, 238));
+  box-shadow: 0 8px 16px rgb(131, 60, 60);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card img{
   width: 100%;
